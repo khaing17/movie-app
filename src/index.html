@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="../dist//output.css" />
+  </head>
+  <body class="bg-slate-800">
+    <header class="bg-[#8cb9c5] mb-4">
+      <nav class="container px-6 font-semibold text-2xl py-4">
+        <a href="#">Movie Store</a>
+      </nav>
+    </header>
+    <main class="px-4">
+      <div class="max-w-lg mx-auto mb-6">
+        <h1 class="text-center font-semibold text-3xl text-slate-400 mb-4">
+          Dive into a movie world
+        </h1>
+        <div class="flex text-slate-100">
+          <input
+            type="text"
+            placeholder="Movie name"
+            class="movie-input px-1 py-2 bg-transparent w-full border border-slate-400 focus:outline-none rounded-md"
+          />
+          <button
+            class="search-btn text-center px-2 py-2 border border-slate-400 rounded-md text-slate-500"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+      <div class="container mx-auto">
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center gap-4 movie-container"
+        ></div>
+      </div>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
